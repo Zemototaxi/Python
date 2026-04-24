@@ -1,0 +1,7 @@
+n = input('um valor')
+print(type(n))
+print(n.isnumeric())
+print(n.isalpha())
+print(n.isalnum())
+print(n.isalnum())
+print(n.istitle())

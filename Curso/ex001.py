@@ -1,0 +1,8 @@
+nome = input('Qual seu nome?')
+idade = input('Qual sua idade?')
+peso = input('Qual seu peso?')
+print('Prazer em te conhecer!',nome)
+dia = input('Qual sua data  de nascimento?')
+mes = input('qual mes?')
+ano = input('qual ano?')
+print('voce nasceu',dia,'de',mes,'de',ano)

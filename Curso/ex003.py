@@ -1,0 +1,7 @@
+a = (input('Digite o primeiro algo: '))
+print(type(a))
+print(a.isalnum())
+print(a.isupper())
+print(a.isalpha())
+print(a.isnumeric())
+print(a.islower())
