@@ -29,7 +29,7 @@ while True:
     }
 
     print("\n" + "="*40)
-    print("--- 📚 BIBLIOTECA DE CONSULTA ---")
+    print("--- BIBLIOTECA DE CONSULTA ---")
     for num, (nome, _) in categorias.items():
         print(f"{num} - ###{nome}###")
     print("5 - Primeira e última palavra")
@@ -49,10 +49,10 @@ while True:
         nome, comandos = categorias[escolha]
         print(f"\n--- Comandos de {nome} ---")
         for c in comandos:
-            print(f"👉 {c}")
+            print(f"´»»» {c}")
 
     elif escolha == "5":
-        print("\n📌 Primeira e última palavra:")
+        print("\n Primeira e última palavra:")
         print("Código:\ndividido = frase.split()\nprint(dividido[0], dividido[-1])")
 
     elif escolha == "6":
@@ -69,15 +69,15 @@ while True:
         print("  - random: Gera número flutuante entre 0 e 1.")
 
     elif escolha == "7":
-        print("\n📖 DICIONÁRIO DE FUNÇÕES:")
-        print("🔹 len: Conta caracteres/itens.")
-        print("🔹 split: Transforma texto em lista.")
-        print("🔹 count: Conta repetições de um termo.")
-        print("🔹 strip: Remove espaços inúteis.")
-        print("🔹 join: Une elementos de uma lista.")
+        print("\n DICIONÁRIO DE FUNÇÕES:")
+        print(" len: Conta caracteres/itens.")
+        print(" split: Transforma texto em lista.")
+        print(" count: Conta repetições de um termo.")
+        print(" strip: Remove espaços inúteis.")
+        print(" join: Une elementos de uma lista.")
 
     elif escolha == "8":
-        print("\n🎵 REPRODUZINDO ÁUDIO:")
+        print("\n REPRODUZINDO ÁUDIO:")
         print("Código:\nfrom playsound3 import playsound\nplaysound('pua.mp3')")
         print("⚠  NOTA: É necessário salvar outro file com a extensão .mp3 para funcionar.")
 
