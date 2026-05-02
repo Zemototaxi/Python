@@ -20,8 +20,6 @@ print(f"\033[34mEste texto é azul\033[0m")
 # Texto com fundo (Branco com fundo roxo)
 print(f"\033[0;45mTexto branco, fundo roxo\033[0m")
 
-import os
-
 print("\n--- TABELA DE CORES ANSI (INCLUINDO BRANCO INTENSO) ---")
 
 # Adicionamos o 37 (Cinza) e o 97 (Branco Brilhante) à lista de textos
